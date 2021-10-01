@@ -1,9 +1,14 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-#include <locale.h> 
+#include <locale.h>
+/**
+ * main - prints numbers 
+ * Return: 0
+ */
 
-        int main (void)
+	int main (void)
+	
 {
         int n;
 
@@ -15,5 +20,5 @@
 		printf ("%d is negative\n", n);
 	else
 		printf ("%d is zero\n", n);
-        return (0);
+	return (0);
 }
