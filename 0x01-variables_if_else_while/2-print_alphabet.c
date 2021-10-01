@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-#include <local.h>
+#include <locale.h>
 #include <unistd.h>
 /**
  * main - alphabet in lowercase
