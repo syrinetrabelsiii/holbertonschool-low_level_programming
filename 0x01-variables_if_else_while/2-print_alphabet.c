@@ -1,10 +1,21 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
+#include <local.h>
+#include <unistd.h>
+/**
+ * main - alphabet in lowercase
+ * Return: 0
+ */
 int main(void)
+
 {
-	for(int x = 'A'; x <= 'Z'; x++)
-{
-	int lower_x = tolower(x);
-	 putchar(lower_x);
-}
+	int n;
+
+	for (n = 'a'; n <= 'z'; n++)
+	{
+		putchar(n);
+	}
+	putchar('\n');
 	return (0);
 }
