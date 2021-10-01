@@ -3,10 +3,10 @@
  * main - prints alphabet
  *return: 0 
  */
-int main(void)
+	int main(void)
 {
 	char c;
-	for (c = 'a'; c <== 'z'; c++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
 	if (c == 'q' || c == 'e')
 	continue;
@@ -14,5 +14,5 @@ int main(void)
 	putchar(c);
 	}
 	putchar('\n');
-	return (0);
+return (0);
 }
