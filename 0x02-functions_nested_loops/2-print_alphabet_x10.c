@@ -1,25 +1,16 @@
 #include "main.h"
 /**
- * main - print alphabets
- * Return: 0
+ * print_alphabet - print alphabets
+ * Return: void
  */
-void ft_print_alphabet(void)
+void print_alphabet_x10(void)
 {
-    int s = 0;
-    int n;
-    while (s < 10)
-{
-    for (n = 'a'; n <= 'z'; n++)
-    {
-        putchar(n);
-    }
-    s++;
-    putchar('\n');
-}
-
-}
-int main(void)
-{
-    ft_print_alphabet();
-    return (0);
+	int n, i;
+	
+	for (i=0;i<10;i++)
+	{	
+	for (n = 'a'; n <= 'z'; n++)
+		putchar(n);
+	putchar('\n');
+	}
 }
