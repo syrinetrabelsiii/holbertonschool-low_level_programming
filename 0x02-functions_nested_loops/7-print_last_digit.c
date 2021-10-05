@@ -8,6 +8,7 @@ int print_last_digit(int i)
 {
 
 	long x = i;
+
 	if (x < 0)
 		x = -x;
 	if (x > 10)
