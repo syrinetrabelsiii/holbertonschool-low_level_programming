@@ -2,14 +2,17 @@
 /**
  * abs - absolute value
  * @n: int
- * Return: n
+ * Return: 0
  */
 int _abs(int n)
 {
-	int n;
 	if (n < 0)
+	{
 		n = -n;
+	}
 	else if (n >= 0)
+	{
 		n = n;
-	return (n);
+	}
+	return (0);
 }
