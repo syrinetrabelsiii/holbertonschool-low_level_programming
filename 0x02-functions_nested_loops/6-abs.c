@@ -2,15 +2,14 @@
 /**
  * abs - absolute value
  * @n: int
- * Return: 0
+ * Return: n
  */
 int _abs(int)
 {
 	int n;
 	if (n < 0)
-		_putchar(n = -n);
-	else if (n > 0)
-		_putchar(n);
-	else 
-		_putchar(n);
+		n = -n;
+	else if (n >= 0)
+		n = n;
+	return (n);
 }
