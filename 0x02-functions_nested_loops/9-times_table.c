@@ -16,6 +16,10 @@ void times_table(void)
 			e = k % 10;
 			if (j == 0)
 			{
+				_putchar('0');
+			}
+			else if (k < 10)
+			{
 				_putchar(' ');
 				_putchar('0' + e);
 			}
