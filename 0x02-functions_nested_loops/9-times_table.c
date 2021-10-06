@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * time_table - time of table
- * Return: 0 
+ * Return: 0
  */
 void times_table(void)
 {
