@@ -1,15 +1,18 @@
 #include "main.h"
 /**
- * abs - absolute value
+ * _abs - absolute value
  * @n: int
- * Return: n
+ * Return: 0
  */
 int _abs(int n)
 {
-	int n;
-	if (n < 0)
-		n = -n;
-	else if (n >= 0)
-		n = n;
-	return (n);
+	if (n > -1)
+	{
+		return (n);
+	}
+	else
+	{
+		return (n * -1);
+	}
+	return (0);
 }
