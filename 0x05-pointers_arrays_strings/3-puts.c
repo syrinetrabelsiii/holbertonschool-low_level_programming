@@ -5,6 +5,10 @@
  */
 void _puts(char *str)
 {
-printf("%s", str);
-printf("\n");
+	int i = 0;
+
+	while (*(str + i) != 0)
+		i++;
+	_putchar(*(str + i));
 }
+
