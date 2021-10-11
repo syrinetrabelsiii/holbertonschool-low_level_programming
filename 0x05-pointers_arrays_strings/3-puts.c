@@ -5,7 +5,6 @@
  */
 void _puts(char *str)
 {
-
-	while (*str != '\0')
-	str++;
+printf ("%s" , str);
+printf ("\n");
 }
