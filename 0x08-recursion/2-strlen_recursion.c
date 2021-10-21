@@ -2,6 +2,7 @@
 /**
  * _strlen_recursion - returns the length
  * @s: char
+ * Return:int 
  */
 int _strlen_recursion(char *s)
 {
