@@ -7,8 +7,6 @@
  */
 char *create_array(unsigned int size, char c)
 {
-ar *create_array(unsigned int size, char c)
-{
 	char *ar;
 	unsigned int i;
 
