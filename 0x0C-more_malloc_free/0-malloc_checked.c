@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- *  * malloc_checked - check if null
- *   * @b: unsigned int
- *    * Return: a
- *     */
+ * malloc_checked - check if null
+ * @b: unsigned int
+ * Return: a
+ */
 void *malloc_checked(unsigned int b)
 {
 	void *a;
