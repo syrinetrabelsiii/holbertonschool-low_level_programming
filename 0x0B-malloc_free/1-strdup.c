@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *_strdup - Returns a pointer 
+ * *_strdup - Returns a pointer
  * @str: string
  * Return: int
  */
@@ -8,7 +8,7 @@ char *_strdup(char *str)
 {
 	char *sc;
 	int i, len = 0;
-	
+
 	if (str == NULL)
 		return (NULL);
 	for (i = 0; str[i]; i++)
