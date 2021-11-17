@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include "lists.h"
 /**
- * size_t print_listint - function that prints all the elements of a list. 
+ * print_listint - function that prints all the elements of a list. 
  * @h: pointer
- * return : the number of nodes
+ * Return: the number of nodes
  */
 size_t print_listint(const listint_t *h)
 {
