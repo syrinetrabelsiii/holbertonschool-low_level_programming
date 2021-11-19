@@ -1,5 +1,3 @@
-nes (11 sloc)  239 Bytes
-   
 #include "main.h"
 /**
  * print_binary - Prints the binary representation of a number.
