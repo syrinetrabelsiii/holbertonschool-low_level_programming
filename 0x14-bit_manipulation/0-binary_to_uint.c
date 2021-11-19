@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*binary_to_uint - binary number to an unsigned int
+*binary_to_uint - converts a binary number to an unsigned int
 *@b: pointer
 *Return: int
 */
@@ -12,6 +12,8 @@ int c;
 unsigned int len;
 len = strlen(b);
 
+if (b == NULL)
+return (0);
 for (c = len - 1; c >= 0; c--)
 {
 if (b[c] != '0' && b[c] != '1')
