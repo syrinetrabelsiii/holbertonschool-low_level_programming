@@ -3,8 +3,7 @@
  * hash_table_set - adds an element to the hash table
  * @ht: pointer to a struct of type hash_table_t
  * @key: key to insert
- * @value: associated value to insert
- *
+ * @value: associatevalue to insert
  * Return: 1 if it succeede, 0 otherwise
  */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
